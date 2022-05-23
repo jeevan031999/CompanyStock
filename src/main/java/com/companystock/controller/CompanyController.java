@@ -17,7 +17,6 @@ import java.util.List;
 
 @RestController
 
-
 public class CompanyController {
     @Autowired
     ICompanyService companyService;
