@@ -5,7 +5,7 @@ import com.companystock.model.CompanyRegisterModel;
 import com.companystock.model.StockModel;
 
 import com.companystock.service.ICompanyService;
-import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +16,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@Slf4j
+
 
 public class CompanyController {
 
