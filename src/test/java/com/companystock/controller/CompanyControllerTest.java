@@ -33,6 +33,7 @@ public class CompanyControllerTest {
     CompanyRegisterModel cr1 = new CompanyRegisterModel(12121, "abi", "abi@gmail.com", "karthik", "10000", "abi.com", "NSE", null);
     List<CompanyRegisterModel> record = new ArrayList<>(Arrays.asList(cr, cr1));
 
+
     @Test
     public void testSaveCompany() throws Exception{
         Mockito.when(companyService.saveCompany(cr)).thenReturn(cr);
