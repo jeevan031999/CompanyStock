@@ -5,7 +5,7 @@ import com.companystock.model.CompanyRegisterModel;
 import com.companystock.model.StockModel;
 
 
-import com.companystock.service.StockService;
+import com.companystock.serviceImp.StockService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

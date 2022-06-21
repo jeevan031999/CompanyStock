@@ -5,6 +5,7 @@ import com.companystock.model.CompanyRegisterModel;
 import com.companystock.repository.ICompanyRepository;
 
 //import com.companystock.service.ICompanyService;
+import com.companystock.serviceImp.CompanyService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;

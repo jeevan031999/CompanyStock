@@ -1,16 +1,17 @@
-package com.companystock.service;
+package com.companystock.serviceImp;
 
 import com.companystock.companyexception.NoSuchCompanyExistsException;
 import com.companystock.model.CompanyRegisterModel;
 import com.companystock.model.StockModel;
 
+import com.companystock.service.IStockService;
 import com.companystock.stockexception.StockAlreadyExistsException;
 import com.companystock.repository.IStockRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class StockService implements IStockService{
+public class StockService implements IStockService {
 
    @Autowired
    IStockRepository stockRepository;

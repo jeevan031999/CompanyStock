@@ -1,4 +1,4 @@
-package com.companystock.service;
+package com.companystock.serviceImp;
 
 import com.companystock.companyexception.CompanyAlreadyExistsException;
 
@@ -6,6 +6,7 @@ import com.companystock.companyexception.NoSuchCompanyExistsException;
 import com.companystock.model.CompanyRegisterModel;
 
 import com.companystock.repository.ICompanyRepository;
+import com.companystock.service.ICompanyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
